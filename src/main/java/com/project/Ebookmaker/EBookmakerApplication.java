@@ -13,7 +13,7 @@ public class EBookmakerApplication {
 	
 	public static void main(String[] args) {
 		Logger logger = LoggerFactory.getLogger(EBookmakerApplication.class);
-
+ 
 		logger.info("Application started");
 		SpringApplication.run(EBookmakerApplication.class, args);
 	}
